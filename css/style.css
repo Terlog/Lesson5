@@ -1,0 +1,49 @@
+@import url(reset.css);
+
+body {
+    font-family: "Poppins", Verdana, sans-serif;
+    
+}
+.container {
+    max-width: 1460px;
+    margin: 0 auto;
+    /* display: inline-block; */
+    
+}
+.section {
+    max-width: 1260px;
+    padding: 40px 10px;
+    margin: 0 auto;
+    
+}
+.wraper {
+    width: 816px;
+    margin: 0 auto;
+}
+h1,
+h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+}
+p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.78;
+}
+.title.one {
+    max-width: 400px;
+}
+
+.text {
+}
+.photo-first {
+    margin: 0 auto;
+}
+.title.second {
+    max-width: 605px;
+}
+
+.photo li{
+    display: inline-block;
+}
