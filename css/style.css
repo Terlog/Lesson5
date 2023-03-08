@@ -2,6 +2,8 @@
 
 body {
     font-family: "Poppins", Verdana, sans-serif;
+    color: #6C757D;
+    font-style: normal;
     
 }
 .container {
@@ -25,14 +27,18 @@ h2 {
     font-weight: 700;
     font-size: 25px;
     line-height: 1.6;
+    color: #212529;
+    margin-bottom: 40px;
 }
 p {
     font-weight: 300;
     font-size: 14px;
     line-height: 1.78;
+    
 }
 .title.one {
     max-width: 400px;
+    
 }
 
 .text {
@@ -46,4 +52,18 @@ p {
 
 .photo li{
     display: inline-block;
+}
+p + p{
+    margin-top: 30px;
+}
+ul,
+.wraper,
+.photo-first{
+    margin-bottom: 80px;
+}
+ul{
+    font-size: 0;
+}
+li + li{
+    margin-left: 30px;
 }
