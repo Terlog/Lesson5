@@ -41,8 +41,6 @@ p {
     
 }
 
-.text {
-}
 .photo-first {
     margin: 0 auto;
 }
@@ -53,7 +51,7 @@ p {
 .photo li{
     display: inline-block;
 }
-p + p{
+.text + .text{
     margin-top: 30px;
 }
 ul,
